@@ -1,0 +1,26 @@
+body{
+    height: 100%;
+    background-color: #040311;
+    width: 100%;
+}
+#container{
+    margin: 0 auto;
+    width: 90%;
+
+    & #sessao2{
+        background-color: bisque;
+        height: 1000px;
+
+        & #titulo{
+            background-color: blueviolet;
+            position: absolute;
+            color: white;
+        }
+    
+        & #matriz_curicular img{
+            position: absolute;
+            width: 500px;
+            transform: translateY(100px);
+        }
+    }
+}
